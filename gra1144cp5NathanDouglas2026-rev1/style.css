@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    background-attachment: fixed;
+    background-color: #FD8528;
+}
+wrapper {
+    width: 1920px;
+    margin: auto;
+    display: block;
+}
+.logo {
+    width: 200px;
+    margin: 10px;
+    height: 200px;
+    vertical-align: middle;
+}
+h1 {
+    display: inline;
+}
+nav a li {
+    padding: 20px;
+    display: inline-block;
+    background-color: #FFFFFF;
+}
+nav a li:hover {
+    background-color: #F71F23;
+}
+main {
+    height: 1080px;
+}
+footer  {
+    color: #FFFFFF;
+}
+nav {
+    text-align: center;
+}
+.video1 {
+    margin-left: 378px;
+    margin-top: 29px;
+
+}
+.video2 {
+    margin-top: 0px;
+    /* [disabled]margin-right: 0px; */
+    margin-left: 11px;
+    /* [disabled]margin-bottom: 0px; */
+}
+.video3 {
+    /* [disabled]margin-top: 0px; */
+    /* [disabled]margin-right: 0px; */
+    margin-left: -1140px;
+    margin-bottom: -323px;
+
+}
+.video4 {
+    /* [disabled]margin-top: 0px; */
+    margin-right: 0px;
+    margin-left: 12px;
+    margin-bottom: -323px;
+}
+.sm {
+    width: 350px;
+    margin-top: -36px;
+    margin-left: 809px;
+    height: 350px;
+}
+#home {
+    background-image: url("jvbhome.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
