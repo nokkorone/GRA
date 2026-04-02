@@ -1,0 +1,718 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    background-attachment: fixed;
+    background-color: #000000;
+	cursor: url("jvbcursor.png"), auto;
+}
+wrapper {
+    width: 1920px;
+    margin: auto;
+    display: block;
+}
+.logo {
+    width: 365px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    height: 200px;
+    vertical-align: middle;
+    padding-left: 766px;
+    padding-top: 14px;
+}
+h1 {
+    display: inline;
+}
+h2 {
+    color: #FFFFFF;
+	font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav a li {
+    padding: 20px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+	font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	color: #FD8528;
+}
+nav a li:hover {
+    background-color: #FD8528;
+    text-decoration: none;
+	color: #FFFFFF;
+}
+main {
+    height: 1080px;
+}
+footer  {
+    color: #FFFFFF;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 17px;
+}
+.musicstore {
+    padding-left: 871px;
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+}
+
+#music {
+    padding-bottom: 166px;
+}
+
+
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.video1 {
+    margin-left: 378px;
+    margin-top: 29px;
+    border-radius: 20px;
+}
+.video2 {
+    margin-top: 0px;
+    /* [disabled]margin-right: 0px; */
+    margin-left: 11px;
+    /* [disabled]margin-bottom: 0px; */
+    border-radius: 20px;
+}
+.video3 {
+    /* [disabled]margin-top: 0px; */
+    /* [disabled]margin-right: 0px; */
+    margin-left: -1140px;
+    margin-bottom: -323px;
+    border-radius: 20px;
+}
+.video4 {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 12px;
+    margin-bottom: -323px;
+    border-radius: 20px;
+}
+.video5 {
+    margin-left: 377px;
+    margin-bottom: -2px;
+    border-radius: 20px;
+}
+.video6 {
+    margin-left: 12px;
+    border-radius: 20px;
+    margin-top: 329px;
+}
+.sm {
+    width: 400px;
+    margin-top: 28px;
+    margin-left: -3px;
+    height: 400px;
+    padding-bottom: 97px;
+    margin-bottom: -74px;
+    padding-left: 31px;
+    padding-top: 14px;
+}
+
+#policy  {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+#home {
+    background-image: url("jvbhome.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-left: 0px;
+    padding-bottom: 130px;
+}
+#concerts {
+    background-image: url("jvbtour.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 28px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+.tourtitle {
+    color: #FFFFFF;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    margin-left: 690px;
+    padding-top: 0px;
+    padding-left: 64px;
+}
+table {
+    width: 90%;
+    text-align: center;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: 47px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-style: none;
+    padding-top: 12px;
+    background-color: rgba(0,0,0,0.70);
+    border-radius: 30px;
+    padding-left: 94px;
+}
+td {
+    border: 0;
+	color: white;
+	height: 2.5em;
+	width: 35.5%;
+	font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.hyper {
+    padding-left: 38px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-left: -47px;
+    font-size: 70px;
+    text-align: center;
+    -webkit-box-shadow: 0 0 0px 0;
+    box-shadow: 0 0 0px 0;
+    text-shadow: 8px 4px rgba(130,42,9,1.00);
+    letter-spacing: 3px;
+}
+.pic1 {
+    width: 448px;
+    height: 308px;
+    margin-left: 239px;
+    padding-left: 179px;
+    margin-bottom: 216px;
+    padding-bottom: 48px;
+}
+.pic2 {
+    width: 585px;
+    height: 354px;
+    padding-left: 11px;
+    margin-bottom: 129px;
+    padding-bottom: 88px;
+}
+.pic3 {
+    width: 448px;
+    height: 267px;
+    padding-left: 426px;
+    padding-top: 0px;
+    margin-left: -1478px;
+    margin-bottom: -21px;
+    padding-bottom: 0px;
+    padding-right: 18px;
+}
+.pic4 {
+    width: 615px;
+    height: 311px;
+    padding-left: 15px;
+    margin-top: 52px;
+    padding-bottom: 0px;
+    margin-left: -18px;
+    margin-bottom: -116px;
+}
+.pic5 {
+    width: 448px;
+    height: 344px;
+    margin-left: -1087px;
+    margin-bottom: -381px;
+}
+.pic6 {
+    height: 413px;
+    width: 583px;
+    padding-left: 80px;
+    margin-bottom: -542px;
+    margin-left: -69px;
+}
+
+
+.videotabname {
+    padding-left: 897px;
+    padding-bottom: 1px;
+    margin-left: 21px;
+}
+.davideos {
+    padding-top: 15px;
+    margin-top: -43px;
+}
+
+.policytxt {
+    color: #FFFFFF;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: -63px;
+    padding-top: 85px;
+}
+
+.privname {
+    font-size: 60px;
+    padding-top: 0px;
+    margin-top: -7px;
+    padding-left: 45px;
+}
+.ugs {
+    height: 300px;
+    width: 300px;
+    padding-left: 129px;
+    margin-left: 237px;
+}
+.pt {
+    width: 300px;
+    height: 300px;
+    padding-left: 129px;
+}
+.nh1 {
+    width: 300px;
+    height: 300px;
+    padding-left: 129px;
+}
+.nh2  {
+    width: 300px;
+    height: 300px;
+    padding-left: 0px;
+    margin-left: -1171px;
+    padding-top: 0px;
+    margin-bottom: -399px;
+}
+.gsongs {
+    width: 300px;
+    height: 300px;
+    margin-bottom: -399px;
+    padding-left: 131px;
+}
+.hy1 {
+    width: 300px;
+    height: 300px;
+    padding-top: 253px;
+    margin-bottom: -399px;
+    padding-left: 121px;
+}
+.hy2 {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    margin-left: -735px;
+    margin-bottom: -801px;
+    padding-top: 0px;
+}
+.welcomegif {
+    border-radius: 282px;
+    margin-left: 742px;
+    margin-top: 460px;
+    width: 500px;
+    height: 500px;
+    border: 25px double rgba(255,255,255,1.00);
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+
+
+.ugs_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    padding-left: 0px;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+    margin-left: -892px;
+    margin-top: 16px;
+}
+.pt_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    padding-left: 0px;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+    margin-left: -19px;
+    margin-top: -81px;
+}
+.nh1_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    padding-left: 0px;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+    margin-left: 840px;
+    margin-top: -81px;
+}
+
+.nh2_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    padding-left: 0px;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+    margin-left: -888px;
+    margin-top: 334px;
+}
+.gsongs_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    padding-left: 0px;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+    margin-left: -36px;
+    margin-top: -87px;
+}
+
+.hy1_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    padding-left: 0px;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+    margin-left: 832px;
+    margin-top: -82px;
+}
+.hy2_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    padding-left: 0px;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+    margin-left: -29px;
+    margin-top: 349px;
+}
+h3 {
+    color: #FFFFFF;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 0px;
+    margin-top: -49px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 14px;
+    margin-bottom: -85px;
+    text-decoration: none;
+}
+.STREAMHERE {
+    color: #FFFFFF;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 78px;
+    margin-top: -104px;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 14px;
+    margin-bottom: -85px;
+    padding-top: 0px;
+    text-shadow: 8px 4px rgba(130,42,9,1.00);
+    text-decoration: none;
+}
+.phototabtitle {
+    margin-left: 924px;
+}
+.jvintro {
+    color: #FFFFFF;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    padding-left: 265px;
+    padding-top: 235px;
+}
+.bintro {
+    color: #FFFFFF;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    padding-left: 1500px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -79px;
+    margin-bottom: -414px;
+}
+#photoalbum {
+    padding-bottom: 460px;
+}
+.pic7 {
+    width: 409px;
+    height: 462px;
+    margin-left: -1019px;
+    margin-bottom: -852px;
+}
+.pic8 {
+    width: 586px;
+    height: 339px;
+    margin-left: 19px;
+    margin-bottom: -893px;
+}
+.latestnews {
+    margin-left: 873px;
+}
+#newssection {
+
+}
+.news1 {
+    width: 560px;
+    height: 310px;
+    padding-left: 85px;
+}
+.article1 {
+    color: #FFFFFF;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 114px;
+    padding-top: 0px;
+    margin-top: 7px;
+}
+
+
+
+.news2 {
+    width: 560px;
+    height: 310px;
+    padding-left: 260px;
+    padding-top: 44px;
+    margin-top: -420px;
+    margin-bottom: 69px;
+}
+.article2 {
+    color: #FFFFFF;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: -29px;
+    padding-top: 0px;
+    margin-top: -65px;
+    text-align: center;
+}
+
+.news3 {
+    width: 560px;
+    height: 310px;
+    padding-left: 0px;
+    margin-left: 1238px;
+    margin-top: -412px;
+    padding-bottom: 127px;
+}
+
+.article3 {
+    color: #FFFFFF;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 1117px;
+    padding-top: 0px;
+    margin-top: -118px;
+    text-align: center;
+}
+.sitemusic {
+    padding-top: 22px;
+}
+.musicinstruct {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-left: 66px;
+    color: rgba(255,255,255,0.65);
+}
+.readmore1 {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #FAB440;
+    border: 4PX solid #FFFFFF;
+    margin-left: 286px;
+}
+
+.readmore1:hover {
+    color: #FFFFFF;
+}
+.readmore2 {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #FAB440;
+    border: 4PX solid #FFFFFF;
+    margin-left: 882px;
+}
+.readmore2:hover {
+   color: #FFFFFF;
+}
+.readmore3 {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #FAB440;
+    border: 4PX solid #FFFFFF;
+    margin-left: 1464px;
+    margin-top: -67px;
+}
+.readmore3:hover {
+  color: #FFFFFF;
+}
+.merchstore {
+    margin-bottom: 7px;
+    padding-left: 871px;
+    padding-bottom: 10px;
+    width: auto;
+    height: auto;
+}
+.redhood {
+    width: 300px;
+    height: 300px;
+    margin-left: 423px;
+}
+.blkshirt {
+    width: 300px;
+    height: 300px;
+    padding-left: 77px;
+}
+.iluvjvb {
+    width: 300px;
+    height: 300px;
+    padding-left: 45px;
+}
+.bluebeanie {
+    width: 300px;
+    height: 300px;
+    margin-left: -1035px;
+    margin-bottom: -430px;
+}
+.hycd {
+    width: 300px;
+    height: 300px;
+    margin-bottom: -446px;
+    padding-left: 93px;
+}
+.hyvinyl {
+    width: 300px;
+    height: 300px;
+    margin-bottom: -444px;
+    margin-left: 81px;
+}
+.redhood_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    margin-left: 442px;
+}
+.blkshirt_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    margin-left: 844px;
+    margin-top: -70px;
+}
+.iluvjvb_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    margin-left: 1224px;
+    margin-top: -62px;
+}
+.bluebeanie_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    margin-left: 441px;
+    margin-top: 373px;
+}
+.hycd_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    margin-left: 848px;
+    margin-top: -67px;
+    
+}
+.hyvinyl_txt {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    margin-left: 1206px;
+    margin-top: -62px;
+}
+#merch {
+    padding-bottom: 0px;
+    margin-bottom: -117px;
+}
+#mailing {
+    background-image: url(jvbmailbg.webp);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.mailinghead {
+    color: #FFFFFF;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 110px;
+    letter-spacing: -1px;
+    padding-top: 182px;
+    margin-top: 58px;
+    text-decoration: none;
+    text-shadow: 4px 9px rgba(130,42,9,0.80);
+}
+.mailsection {
+
+}
+.mailsignup {
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    color: #FAB440;
+    font-size: 85px;
+    background-color: rgba(0,0,0,1.00);
+    padding-left: 743px;
+    border-style: none;
+    border-width: 0px;
+}
+.blogname {
+    margin-left: 924px;
+}
