@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Trivago | Nathan Douglas, 2026</title>
+<script src="https://kit.fontawesome.com/fd06840de9.js" crossorigin="anonymous"></script>
+<style type="text/css">
+body {
+    margin: 0;
+    background-image: url("eiffel.webp");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #9CDCF3;
+	background-position: 0 100px;
+}
+wrapper {
+    margin: auto;
+    width: 1366px;
+    display: block;
+}
+.logo {
+    height: 82px;
+    width: 267px;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+header {
+    height: 100px;
+    background-color: #0248AE;
+}
+#Tabs1 ul {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+#Tabs1 {
+    background-image: none;
+	background-color: rgba(255,255,255,0.50);
+}
+#Tabs1 ul li {
+    text-align: center;
+}
+#Tabs1 ul li i {
+    
+	font-size: 30px;
+    color: rgba(62,83,142,1.00);
+}
+	#tabs-1 div{
+		display: grid;
+		grid-template-columns: 16% 16% 16% 16% 16% 10%;
+		gap:10px;
+	}	
+#tabs-2 div {
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 10%;
+    gap:10px;
+	}
+#tabs-3 div {
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 10%;
+    gap:10px;
+	}
+#tabs-4 div {
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 10%;
+    gap:10px;
+	}
+#tabs-5 div {
+    display: grid;
+    grid-template-columns: 16% 16% 10%;
+    gap:10px;
+	}
+.search {
+    background-color: rgba(28,71,115,1.00);
+    color: rgba(255,255,255,1.00);
+    text-shadow: 0px 0px none;
+}
+input , select{
+    padding: 20px;
+    border: thin solid lightgrey;
+    border-radius: 10px;
+}
+footer {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgba(255,255,255,1.00);
+    background-color: rgba(53,53,61,0.50);
+	}
+.easter {
+    width: 562px;
+    height: 366px;
+    padding-left: 0px;
+    margin-left: 83px;
+    border-radius: 71px;
+    border: 11px solid rgba(255,255,255,1.00);
+    margin-top: 18px;
+}
+.easter:hover {
+  transform: scale(1.1);
+  transition: transform .3s ease;
+	}
+.jamaica:hover {
+  transform: scale(1.1);
+  transition: transform .3s ease;
+	}
+.chicago:hover {
+  transform: scale(1.1);
+  transition: transform .3s ease;
+	}
+.jamaica {
+    height: 364px;
+    width: 610px;
+    border-radius: 71px;
+    border: 11px solid rgba(255,255,255,1.00);
+    margin-left: 13px;
+}
+.chicago {
+    height: 366px;
+    width: 562px;
+    padding-left: 0px;
+    padding-top: 0px;
+    border-radius: 71px;
+    margin-left: 405px;
+    border: 11px solid rgba(255,255,255,1.00);
+    margin-top: 18px;
+}
+.title {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgba(255,255,255,1.00);
+	}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header>
+  <wrapper>
+    <a href="index.html"><img src="logo.png" alt="sitelogo" class="logo"></a>
+  </wrapper>
+</header>
+<wrapper>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1"><i class="fa-solid fa-plane-departure"></i><br>
+       Flights</a></li>
+      <li><a href="#tabs-2"><i class="fa-solid fa-hotel"></i><br>
+       Hotels</a></li>
+      <li><a href="#tabs-3"><i class="fa-solid fa-car-side"></i><br>
+       Cars</a></li>
+      <li><a href="#tabs-4"><i class="fa-solid fa-gift"></i><br>
+       Packages</a></li>
+      <li><a href="#tabs-5"><i class="fa-solid fa-people-group"></i><br>
+      Activities</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p class="title">Find your flights</p>
+      <div>
+        <input type="text" placeholder="Leaving From">
+        <input type="text" placeholder="Going To"><input type="date"><input type="date"><select>
+          <option value="0">Number of Travelers</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          </select>
+        <input type="submit" class="search" value="Search">
+      </div>
+	  </div>
+    <div id="tabs-2">
+      <p class="title">Find your hotels</p>
+		<div>
+			<input type="text" placeholder="Where to">
+			<input type="date"><input type="date"><select>
+			<option value="0">Number of Travelers</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+			</select>
+		<input type="submit" class="search" value="Search">
+		</div>
+    </div>
+    <div id="tabs-3">
+      <p class="title">Find your car rental</p>
+		<div>
+		<input type="text" placeholder="Pick Up">
+		<input type="text" placeholder="Drop Off">
+		<input type="date"><input type="date">
+	  <input type="submit" class="search" value="Search">
+		</div>
+    </div>
+    <div id="tabs-4">
+      <p class="title">Bundle and Save</p>
+		<div>
+		<input type="text" placeholder="Leaving From">
+		<input type="text" placeholder="Going To">
+		<input type="date"><input type="date"><select>
+			<option value="0">Number of Travelers</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+			</select>
+		<input type="submit" class="search" value="Search">
+	  </div>
+    </div>
+    <div id="tabs-5">
+      <p class="title">Find things to do</p>
+		<div>
+		<input type="text" placeholder="Going To">
+		<input type="date">
+		<input type="submit" class="search" value="Search">
+		</div>
+    </div>
+  </div>
+	<img src="easterisland.jpeg" alt= "easter island" class="easter">
+	<img src="jamaica.jpg" alt="jamaica" class="jamaica">
+	<img src="chicago.webp" alt="chicago" class="chicago">
+</wrapper>
+	<footer>
+	<p>© 2026, Nathan Douglas. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+	</footer>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
