@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Nuclear Throne|Nathan Douglas 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap" rel="stylesheet">
+<style type="text/css">
+.logo {
+    width: 676px;
+    height: 219px;
+    padding-left: 365px;
+    margin-top: -50px;
+}
+footer {
+  font-family: "Geist Pixel", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+	}
+h1 {
+    font-family: "Geist Pixel", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-variation-settings: "ELSH" 0;
+    font-size: 74px;
+    margin-left: 509px;
+    margin-top: 3px;
+	}
+#div1 {
+    width: 594px;
+    height: 405px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url(MEDIA/THRONE.png);
+    background-size: cover;
+}
+#div1 #drag1 {
+    margin-left: 245px;
+    margin-top: 90px;
+}
+wrapper {
+    margin: auto;
+    display: block;
+    width: 1366px;
+}
+body {
+    margin: auto;
+}
+#drag1 {
+}
+#div2 {
+    height: 105px;
+    border: thin solid gray;
+    width: 105px;
+    display: inline-block;
+}
+</style>
+</head>
+
+<body>
+<wrapper>
+<h1>CLAIM THE</h1>
+<img src="MEDIA/logo.png" alt="gamelogo" class="logo">
+<p>Place your character on top of the throne to claim your victory!</p>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="MEDIA/charfish.png" draggable="true" ondragstart="drag(event)" id="drag1"></div>
+<footer>© 2026, Nathan Douglas This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
+	</wrapper>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</body>
+</html>
